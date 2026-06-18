@@ -1,0 +1,24 @@
+{
+  "name": "siakad-dosen-e2e-testing",
+  "version": "1.0.0",
+  "description": "E2E Testing for SIAKAD Modul Dosen - Universitas Global Nusantara",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "report": "node support/reporter.js"
+  },
+  "keywords": [
+    "testing",
+    "playwright",
+    "cucumber",
+    "bdd",
+    "pom"
+  ],
+  "author": "Danny, Gunael, Desta, Abel",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.6.0",
+    "playwright": "^1.42.1",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}
